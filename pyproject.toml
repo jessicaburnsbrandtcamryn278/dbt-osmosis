@@ -41,7 +41,7 @@ workbench = [
   "setuptools>=70",
 ]
 
-openai = ["openai~=1.58.1"]
+openai = ["openai>=1.58.1,<2.2.0"]
 
 dev = [
   "ruff~=0.8.4",
